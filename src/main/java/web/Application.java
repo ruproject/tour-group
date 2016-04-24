@@ -17,19 +17,5 @@ public class Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
-        
-        @RequestMapping("/")
-        public String root(){
-            return "index";
-        }
-        
-        @RequestMapping("/index")
-        public String index(){
-            return "index";
-        }
-        
-        @RequestMapping("/login")
-        public String login(){
-        return "login";
-    }
+
 }
